@@ -1,6 +1,6 @@
 #!/bin/bash
 
-infile="/u/project/klohmuel/tanya_data/Canines_Project_Data/Canines_Sample_Info/Dogs_SampleName_small"
+infile=$1
 
 declare -a NameArray
 
