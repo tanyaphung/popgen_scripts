@@ -1,1 +1,6 @@
-Motivation
+** Motivation **
+
+In population genetics, a common way to analyze data is to divide the genomic coordinates into loci (could be 50kb, 100kb, or 1Mb - the choice of loci length is a bit arbitrary). However, typically, we do not want to analyze the full data (i.e. every position of the genome). Rather, we are interested in, for example, regions of the genome that are putatively neutral. Here, I wrote a script that groups sites (not necessarily contiguous) into loci of arbitrary length (loci length is user-input). 
+
+** How to run the script**
+To run the script, simply just supply (1) a file (in bed format) of the coordinates that you want to group into loci and (2) the length of the loci. 
