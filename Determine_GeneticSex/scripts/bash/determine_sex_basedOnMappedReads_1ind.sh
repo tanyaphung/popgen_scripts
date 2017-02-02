@@ -22,7 +22,7 @@ samtools idxstats $inputFile > $outputDir/${inputDogID}_chromDepths.txt
 
 grep chrX $outputDir/${inputDogID}_chromDepths.txt > $outputDir/${inputDogID}_chrX_chromDepths.txt
 
-for i in {1..38}
+for i in {01..38}
 do
 grep chr${i} $outputDir/${inputDogID}_chromDepths.txt >> ${outputDir}/${inputDogID}_autosomes_chromDepths.txt
 
