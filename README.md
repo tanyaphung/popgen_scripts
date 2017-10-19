@@ -1,7 +1,5 @@
-# Population_genetics_scripts
-Useful programs and scripts in bioinformatics and population genetics
-
-This repo contains scripts I write that I reuse over and over again.
+# Population Genetics Scripts
+This repository contains scripts that I often use when analyzing data (mainly for population genetics purposes). 
 
 # compute_diversity
 * This directory contains scripts used to compute genetic diversity (defined as average pairwise differences) in each window of the genome. 
