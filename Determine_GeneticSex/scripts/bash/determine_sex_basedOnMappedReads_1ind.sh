@@ -28,4 +28,4 @@ grep chr${i} $outputDir/${inputDogID}_chromDepths.txt >> ${outputDir}/${inputDog
 
 done
 
-Rscript ../R/compute_meanReadDepth.R  ${outputDir}/${inputDogID}_chrX_chromDepths.txt ${outputDir}/${inputDogID}_autosomes_chromDepths.txt > ${outputDir}/${inputDogID}_GeneticSexInfo.txt
+Rscript /u/project/klohmuel/tanya_data/popgen_scripts/Determine_GeneticSex/scripts/R/compute_meanMappedReads.R  ${outputDir}/${inputDogID}_chrX_chromDepths.txt ${outputDir}/${inputDogID}_autosomes_chromDepths.txt > ${outputDir}/${inputDogID}_GeneticSexInfo.txt
