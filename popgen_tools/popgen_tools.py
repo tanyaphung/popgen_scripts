@@ -7,8 +7,8 @@ def parse_args():
 	Parsing command-line arguments
 	"""
 	parser = argparse.ArgumentParser(description='This script generates a site frequency spectrum and calculates '
-												 'genetic diversity, pi in nonoverlapping windows (average number of '
-												 'DNA differences between all pairs of sequence).')
+						'genetic diversity, pi in nonoverlapping windows (average number of '
+						'DNA differences between all pairs of sequence).')
 
 	parser.add_argument('--vcf_file', required=True,
 						help='REQUIRED. Input the path to a VCF file')
