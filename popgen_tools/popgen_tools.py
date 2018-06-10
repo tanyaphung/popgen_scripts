@@ -19,7 +19,8 @@ def parse_args():
 
 	parser.add_argument('--window_bed', required=False,
 						help='Input the path to the BED file that specifies the coordinates for each '
-							 'nonoverlapping window. This argument is required for the analysis of genetic diversity.')
+							 'nonoverlapping window. This argument is required for the analysis of '
+							 'genetic diversity.')
 
 	parser.add_argument('--sfs_out', required=False,
 						help='Input the path for the output file for the site frequency spectrum. '
